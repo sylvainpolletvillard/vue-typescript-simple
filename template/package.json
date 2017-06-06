@@ -13,9 +13,13 @@
     "vue-property-decorator": "^5.0.1"
   },
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
     "cross-env": "^3.0.0",
     "css-loader": "^0.28.1",
     "file-loader": "^0.11.1",
+    "postcss-grid-kiss": "^1.4.0",
+    "postcss-loader": "^2.0.5",
+    "postcss-normalize": "^3.0.0",
     "ts-loader": "^2.0.3",
     "typescript": "^2.3.2",
     "vue-loader": "^12.0.3",
