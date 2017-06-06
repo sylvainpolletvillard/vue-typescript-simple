@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <img src="../assets/logo.png">
-    <Hello :greeting="message"></Hello>
-    <Date></Date>
+   <Hello :name="Vue"></Hello>
   </div>
 </template>
 
@@ -11,21 +9,32 @@ import Vue from 'vue'
 import Component from 'vue-class-component'
 
 import Hello from './Hello'
-import Date from './Date'
 
 @Component({
-  components: {
-    Hello,
-    Date
-  }
+  components: { Hello }
 })
 export default class extends Vue {
-  message = 'Welcome to Your Vue.js App'
+
 }
 </script>
 <style>
 * {
-  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  grid-kiss:
+  "+-----------+"
+  "|     ↓     |"
+  "| → Hello ← |"
+  "|     ↑     |"
+  "+-----------+"
 }
 </style>
 
