@@ -10,7 +10,7 @@
   "dependencies": {
     "vue": "^2.3.2",
     "vue-class-component": "^5.0.1",
-    "vue-expose-component-names": "^0.0.2",
+    "vue-expose-component-names": "^0.0.3",
     "vue-property-decorator": "^5.0.1"
   },
   "devDependencies": {

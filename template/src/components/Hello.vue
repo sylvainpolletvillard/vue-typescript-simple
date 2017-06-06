@@ -13,11 +13,13 @@
 	@Component({
 		components: { }
 	})
-	export default class extends Vue {
+	export default class Hello extends Vue {
 		@Prop() name: string;
 	}
 </script>
 
 <style scoped>
-
+	h1 {
+		text-align: center;
+	}
 </style>
