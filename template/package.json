@@ -5,10 +5,10 @@
   "author": "",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress"
   },
   "dependencies": {
-    "vue": "^2.3.2",
+    "vue": "^2.3.4",
     "vue-expose-component-names": "^0.0.5",
     "vue-property-decorator": "^5.0.1"
   },
