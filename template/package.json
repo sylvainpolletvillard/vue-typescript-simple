@@ -10,21 +10,21 @@
   "dependencies": {
     "vue": "^2.3.4",
     "vue-expose-component-names": "^0.0.5",
-    "vue-property-decorator": "^5.0.1"
+    "vue-property-decorator": "^5.2.1"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
-    "cross-env": "^3.0.0",
+    "autoprefixer": "^7.1.2",
+    "cross-env": "^5.0.5",
     "css-loader": "^0.28.1",
     "file-loader": "^0.11.1",
-    "postcss-grid-kiss": "^1.4.0",
-    "postcss-loader": "^2.0.5",
-    "postcss-normalize": "^3.0.0",
-    "ts-loader": "^2.0.3",
-    "typescript": "^2.3.2",
-    "vue-loader": "^12.0.3",
-    "vue-template-compiler": "^2.3.2",
-    "webpack": "^2.5.0",
-    "webpack-dev-server": "^2.4.5"
+    "postcss-grid-kiss": "^1.4.1",
+    "postcss-loader": "^2.0.6",
+    "postcss-normalize": "^4.0.0",
+    "ts-loader": "^2.3.2",
+    "typescript": "^2.4.2",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.1",
+    "webpack-dev-server": "^2.7.1"
   }
 }
